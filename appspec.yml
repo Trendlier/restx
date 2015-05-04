@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /home/ubuntu/source/rxinvoice-master
 hooks:
    AfterInstall:
     - location: /home/ubuntu/source/rxinvoice-master/start.sh
