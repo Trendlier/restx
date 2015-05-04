@@ -5,5 +5,5 @@ files:
      destination: /var/www/html
 hooks:
    AfterInstall:
-    - location: /start.sh
+    - location: /home/ubuntu/source/rxinvoice-master/start.sh
       runas: root
