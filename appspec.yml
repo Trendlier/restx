@@ -8,7 +8,5 @@ hooks:
     - location: scripts/startapache.sh
       runas: root
    AfterInstall:
-   - location: cd /var/www/restx
-      runas: root
-   - location: sh start.sh
+   - location: start.sh
       runas: root
