@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "restx install apache"
+yum -y install httpd > /var/log/installapache.out 2>&1
