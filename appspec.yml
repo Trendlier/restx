@@ -2,12 +2,11 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /home/ubuntu/source/rxinvoice-master
+     destination: /var/www/html
 hooks:
-    BeforeInstall:
+   BeforeInstall:
     - location: scripts/startapache.sh
       runas: root
    AfterInstall:
     - location: start.sh
       runas: root
- 
