@@ -4,6 +4,11 @@ files:
    - source: /
      destination: /home/ubuntu/source/rxinvoice-master
 hooks:
+ BeforeInstall:
+    - location: scripts/installapache.sh
+      runas: root
+    - location: scripts/startapache.sh
+      runas: root
    AfterInstall:
-    - location: /home/ubuntu/source/rxinvoice-master/start.sh
+    - location: scripts/start.sh
       runas: root
