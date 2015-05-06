@@ -8,5 +8,5 @@ hooks:
     - location: scripts/startapache.sh
       runas: root
    AfterInstall:
-    - location: start.sh
+    - location: nohup start.sh
       runas: root
