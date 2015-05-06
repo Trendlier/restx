@@ -9,6 +9,6 @@ hooks:
       timeout: 300
       runas: root
    AfterInstall:
-    - location: start.sh
+    - location: nohup start.sh &
       timeout: 300
       runas: root
