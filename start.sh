@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -cp "target/restx/classes:target/dependency/*" -Drestx.app.package=rxinvoice -Drestx.mode=prod $VM_OPTIONS  rxinvoice.AppServer
+java -cp "var/www/restx/target/restx/classes:var/www/restx/target/dependency/*" -Drestx.app.package=rxinvoice -Drestx.mode=prod $VM_OPTIONS  rxinvoice.AppServer
