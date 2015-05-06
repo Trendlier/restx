@@ -5,7 +5,7 @@ files:
      destination: /var/www/restx
 hooks:
    BeforeInstall:
-    - location: scripts/startapache.sh
+   - location: scripts/startapache.sh
       runas: root
    AfterInstall:
    - location: start.sh
